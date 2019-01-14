@@ -27,7 +27,10 @@ div.challenge_notifications div.challenges a.user_link name .hide_elo,
 /* Challenge: outgoing */
 div#hooks_wrap div.lichess_overboard.game_config div.ratings,
 /* Analysis board: PGN */
-div.analysis_panels div.panel.fen_pgn div.pgn
+div.analysis_panels div.panel.fen_pgn div.pgn,
+td.player a.user_link span.rating,
+em.rating,
+.pairings > tr > td:nth-child(3)
 {
 	visibility: hidden;
 }
